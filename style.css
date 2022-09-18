@@ -1,0 +1,42 @@
+.container {
+    width: 200px;
+    height: auto;
+    background-color: #c8c8c8;
+    padding: 4px;
+}
+
+.display{
+    border-radius: 4px;
+    background-color: #000032;
+    color: white;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    width: 100%;
+    display: flex;
+}
+
+.row1 #clear{
+    flex: 4;
+}
+.row1 #divide {
+    flex: 1;
+}
+
+.row2 button,
+.row3 button,
+.row4 button,
+.row5 button {
+    flex: 1;
+}
